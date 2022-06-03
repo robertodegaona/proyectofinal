@@ -1,0 +1,60 @@
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+li{ list-style: none;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    justify-content: left;
+    align-items: top;
+
+    height: 50vh;
+    width: 100%;
+    background: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: contain;
+
+
+
+}
+.vector{
+    
+    position: relative;
+    width: 20px;
+    height: 80px;
+}
+h1{
+    color: white;
+    margin-left: 20px;
+    font-family: 'Istok Web', sans-serif;
+    text-size-adjust: 500px;
+}
+
+footer{
+    text-align: center;
+}
+h4{
+    color: rgb(240, 160, 56);
+    font-size: 30px;
+}
+.p1{
+    color: cadetblue;
+    font-size: 20px;
+}
+.p2{
+    color: rgb(180, 165, 31);
+    font-size: 20px;
+}
